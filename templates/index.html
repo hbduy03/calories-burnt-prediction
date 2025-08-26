@@ -20,39 +20,39 @@
 
             <div class="form-group">
                 <label for="age">Age:</label>
-                <input type="number" id="age" name="Age" placeholder="Ví dụ: 30">
+                <input type="number" id="age" name="Age" placeholder="Ex: 30">
             </div>
 
             <div class="form-group">
                 <label for="height">Height:</label>
-                <input type="number" id="height" name="Height" placeholder="Ví dụ: 175">
+                <input type="number" id="height" name="Height" placeholder="Ex: 175">
             </div>
 
             <div class="form-group">
                 <label for="weight">Weight:</label>
-                <input type="number" id="weight" name="Weight" placeholder="Ví dụ: 70">
+                <input type="number" id="weight" name="Weight" placeholder="Ex: 70">
             </div>
 
             <div class="form-group">
                 <label for="duration">Duration:</label>
-                <input type="number" id="duration" name="Duration" placeholder="Ví dụ: 45">
+                <input type="number" id="duration" name="Duration" placeholder="Ex: 45">
             </div>
 
             <div class="form-group">
                 <label for="heart_rate">Heart rate:</label>
-                <input type="number" id="heart_rate" name="Heart_Rate" placeholder="Ví dụ: 120">
+                <input type="number" id="heart_rate" name="Heart_Rate" placeholder="Ex: 120">
             </div>
 
             <div class="form-group">
                 <label for="body_temp">Body Temperature:</label>
-                <input type="number" step="0.1" id="body_temp" name="Body_Temp" placeholder="Ví dụ: 37.5">
+                <input type="number" step="0.1" id="body_temp" name="Body_Temp" placeholder="Ex: 37.5">
             </div>
 
             <button type="submit">Predict</button>
         </form>
 
   {% if result %}
-    <p><strong>Calories đốt cháy:</strong> {{ result }} kcal</p>
+    <p><strong>Calories burnt:</strong> {{ result }} kcal</p>
   {% elif error %}
     <p><strong>Lỗi:</strong> {{ error }}</p>
   {% endif %}
