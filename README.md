@@ -11,6 +11,7 @@
   2. You can download Dataset at: https://github.com/awasumina/Calories-Burned-Prediction/blob/main/exercise.csv
   3. Start the Flask server: py app.py
   4. When you click 'Predict' butoon for the first time on website, it will take a while to generate ML model
-  7. Enjoy!
+  5. Your data will be saved at user.csv
+  6. Enjoy!
 - Result:
 <img width="627" height="879" alt="image" src="https://github.com/user-attachments/assets/bdbf6b91-e053-4824-826c-8e282243e4f4" />
